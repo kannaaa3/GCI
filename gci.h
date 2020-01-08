@@ -1,6 +1,6 @@
 #ifndef	GCI_H
 #define	GCI_H
 
-void printGCIname()
+void printGCIname();
 
 #endif
