@@ -1,7 +1,7 @@
 #include	<iostream>
-#include	"gci.h"
+using namespace std;
 
-void printGCIname()
+int main()
 {
-	printf("Tran Dung\n");
+	printf("Tran Dung");
 }
