@@ -3,5 +3,5 @@
 
 void printGCIname()
 {
-	printf("Tran Dung");
+	printf("Tran Dung\n");
 }
