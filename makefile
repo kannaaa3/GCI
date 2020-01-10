@@ -1,8 +1,10 @@
 .PHONY: all run
 
-CC=g++
-CFLAGS=-I.
+all:	run
+
 gci:	main.o	gci.o
-	$(CC)	-o	gci	main.o	gci.o $(CFLAGS)
+	g++	-o	gci	main.o	gci.o -I.
+run:	gci
+	./gci
 clean:
 	@rm	*.o	gci
